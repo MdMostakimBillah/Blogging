@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post page</title>
+    <!-- icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custome css link  -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+
+    <div class="container-dashbord">
+        <div class="wraper-dashbord">
+            <!-- asid dashbord -->
+             <div class="aside-dashbord">
+                <div class="logo">
+                    <h1><a href="index.html">H<span>C</span></a></h1>
+                </div>
+
+                <div class="list-side-dashbord">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class='bx bxs-dashboard'></i>
+                                <span>Dashbord</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./allpost.html">
+                                <i class='bx bxs-wallet'></i>
+                                <span>All Post</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./posting.html">
+                                <i class='bx bxs-edit-alt'></i>
+                                <span>Post Page</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./postDetails.html">
+                                <i class='bx bxs-user-detail'></i>
+                                <span>Details</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class='bx bx-cog' ></i>
+                                <span>Setting</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./index.html">
+                                <i class='bx bx-log-out'></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="close-btn-dashbord">
+                    <div class="crose-bar"></div>
+                </div>
+            </div>
+
+            <!-- main area dashbord -->
+            <div class="main-area-dashbord">
+
+                <div class="nav-top-dashbord">
+                    <div class="side-list-control-bar">
+                        <div class="bar-dort-dashbord"></div>
+                    </div>
+                    <div class="Search-any-dashbord">
+                        <form action="">
+                            <div>
+                                <input type="text" placeholder="Search">
+                                <i class='bx bx-search'></i> 
+                            </div>
+                        </form>
+                    </div>
+                    <div class="userProfile">
+                        <div class="adminLogo">
+                            <img src="../img/admin.jpg" alt="admin logo">
+                        </div>
+                        <div class="adminDetails">
+                            <h3>Mostakim</h3>
+                            <p>Admin</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-dashbord-view">
+                    <div class="post-blog-wraper post-page-dashbord">
+
+                    </div>
+
+                    <div class="graph-chart-dashbord">
+                        <form action="" class="createdAreaPost">
+                            <h2>Select & Create</h2>
+        
+                            <div class="post-date-select-postPage">
+                                <input type="date" id="toDayDate" class="date-input-dashbord">
+                            </div>
+
+                            <!-- select topic  -->
+                            <select name="" id="" class="topicSelection">
+                                <option value="SelectTopic">Select Topic</option>
+                                <option value="Education">Education</option>
+                                <option value="Information">Information</option>
+                                <option value="Inspiration">Inspiration</option>
+                            </select>
+
+                            <!-- select box  -->
+                            <select class="SelectBox-option" name="" id="">
+                                <option value="SelectWhatYouWrite">Select What you create</option>
+                                <option id="mainHeader" value="MainHeader">Create Main Header</option>
+                                <option value="img">Upload Image</option>
+                                <option value="withHeaderText">Header & Text</option>
+                                <option value="withoutHeaderText">Text only</option>
+                                <option value="CotationText">Inverted Speace</option>
+                                <option value="listWithHeader">Header & List</option>
+                                <option value="listWithoutHeader">List only</option>
+                            </select>
+                            <div class="CreateDiv">
+                                <input type="submit" value="Create">
+                            </div>
+
+                            <div class="post-blog-submit-button">
+                                <button>Post Blog</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="darkMode"></div>
+    <div class="bgDark"></div> -->
+
+    
+    <script src="../js/CMS Js/dashbord.js"></script>
+    <script src="../js/CMS Js/blogpost.js"></script>
+</body>
+</html>

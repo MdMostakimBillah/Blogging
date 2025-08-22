@@ -1,0 +1,50 @@
+This project is the most interesting and most powerful task in my life.
+The search Option must be workable and the Language should be 2 using Google Translate API
+This website must have 2 themes light and Dark. The dark mode is the most important.
+
+***I want to add the Bangla Language beside the English language 
+
+-----------------------------------------------
+//policy of this project
+-----------------------------------------------
+
+01. Create a Bloging page 
+02. All Blog view page
+03. View page have sagition blog
+
+-----------------------------------------------
+//Pages
+-----------------------------------------------
+01. Home/Blog
+02. View
+03. Policy
+04. 404 page
+
+-----------------------------------------------
+//using technology for design
+-----------------------------------------------
+01. HTML
+02. CSS
+03. JavaScript
+
+-----------------------------------------------
+//using technology for servier
+-----------------------------------------------
+01. MongoDB
+02 Node.js
+
+
+-----------------------------------------------
+//Refarence Website link
+-----------------------------------------------
+01.
+02.
+03.
+04.
+05.
+
+-------------------------------------------------
+//colors
+-------------------------------------------------
+TopBannerColor: #4b9e37
+BackgroundColor: #ffffff
